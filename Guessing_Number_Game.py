@@ -2,7 +2,7 @@
 import random
 import sys
 
-
+# Run the game and next write your name
 
 
 def draw_number():
