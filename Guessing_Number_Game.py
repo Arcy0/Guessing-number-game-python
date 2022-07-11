@@ -10,10 +10,6 @@ def draw_number():
     global drawed_number
     drawed_number = str(random.randint(1, 10))
     
-    
-    
-
-
 def get_player_name_input():  
     global player_name 
     player_name = input("Player pick your name: ")
@@ -81,11 +77,7 @@ def compare_number_and_draw():
                 if guess_number == drawed_number:
                     print(f"Congratulations {player_name}! You needed {attempt} attempts to guess the secret number!")
                     break
-        
     
-
-
-
 def main():
     get_player_name_input()
     print(f"Welcome in guessing game {player_name}!")
